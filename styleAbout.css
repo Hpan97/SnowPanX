@@ -1,0 +1,89 @@
+/*
+Name:Hang Pan
+SID:24189511
+DATE:03/20/2025
+filename:Project2 About
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('img/backgroud-linenTexture.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .about {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);  
+    border-radius: 10px;
+  }
+  
+  .about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about li {
+    font-size: 18px;
+    padding: 5px 0;
+  }
+  
+  footer {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+  }
+  

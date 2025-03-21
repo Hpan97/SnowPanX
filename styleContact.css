@@ -1,0 +1,104 @@
+/*
+Name:Hang Pan
+SID:24189511
+DATE:03/20/2025
+filename:Project2 Contact
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('img/backgroud-linenTexture.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+/* Contact Section */
+.contact {
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);  
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .contact h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: #B5835A;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #8B5E3C;
+  }
+ /* Navigation Bar */
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  nav li {
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+  }
+  
